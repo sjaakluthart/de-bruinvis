@@ -1,5 +1,85 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/fonts/Lato/Lato-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/fonts/Lato/Lato-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./assets/fonts/Lato/Lato-Light.ttf');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+header {
+  padding: 20px;
+}
+
+header img {
+  width: 60px;
+  float: left;
+  margin-right: 10px;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-top: 24px;
+}
+
+header h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+.slick-slider img {
+  width: 100%;
+}
+
+.slick-next {
+  right: 15px;
+}
+
+.slick-prev {
+  left: 15px;
+  z-index: 1;
+}
+
+.slick-dots {
+  bottom: 6px;
+}
+
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before {
+  color: rgb(124, 174, 195);
+  font-size: 10px;
+}
+
+.slick-next:before, .slick-prev:before {
+  color: rgb(124, 174, 195);
+  opacity: 1;
 }
