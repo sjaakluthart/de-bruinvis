@@ -1,5 +1,5 @@
 import React from 'react';
-import duinen from './assets/images/duinen.jpg';
+import duinen from '../assets/images/duinen.jpg';
 
 function About() {
   const style = {

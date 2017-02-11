@@ -1,10 +1,10 @@
 import React from 'react';
 import Slick from 'react-slick';
-import placeholder from './assets/images/placeholder1.jpg';
-import beeld1 from './assets/images/beeld1.jpg';
-import beeld2 from './assets/images/beeld2.jpg';
-import beeld3 from './assets/images/beeld3.jpg';
-import beeld4 from './assets/images/beeld4.jpg';
+import placeholder from '../assets/images/placeholder1.jpg';
+import beeld1 from '../assets/images/beeld1.jpg';
+import beeld2 from '../assets/images/beeld2.jpg';
+import beeld3 from '../assets/images/beeld3.jpg';
+import beeld4 from '../assets/images/beeld4.jpg';
 
 function Slider() {
   const settings = {
