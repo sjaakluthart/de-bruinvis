@@ -1,10 +1,15 @@
 import React from 'react';
 import Slick from 'react-slick';
-import placeholder from '../assets/images/placeholder1.jpg';
-import beeld1 from '../assets/images/beeld1.jpg';
-import beeld2 from '../assets/images/beeld2.jpg';
-import beeld3 from '../assets/images/beeld3.jpg';
-import beeld4 from '../assets/images/beeld4.jpg';
+import slider1 from '../assets/images/slider1.jpg';
+import slider2 from '../assets/images/slider2.jpg';
+import slider3 from '../assets/images/slider3.jpg';
+import slider4 from '../assets/images/slider4.jpg';
+import slider5 from '../assets/images/slider5.jpg';
+import slider6 from '../assets/images/slider6.jpg';
+import slider7 from '../assets/images/slider7.jpg';
+import slider8 from '../assets/images/slider8.jpg';
+import slider9 from '../assets/images/slider9.jpg';
+import slider10 from '../assets/images/slider10.jpg';
 
 function Slider() {
   const settings = {
@@ -18,7 +23,7 @@ function Slider() {
   };
 
   const style = {
-    backgroundImage: `url(${placeholder})`,
+    backgroundImage: `url(${slider1})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     width: '100%',
@@ -28,10 +33,15 @@ function Slider() {
   return (
     <Slick {...settings}>
       <div style={style} />
-      <div style={{ ...style, backgroundImage: `url(${beeld1})` }} />
-      <div style={{ ...style, backgroundImage: `url(${beeld2})` }} />
-      <div style={{ ...style, backgroundImage: `url(${beeld3})` }} />
-      <div style={{ ...style, backgroundImage: `url(${beeld4})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider2})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider3})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider4})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider5})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider6})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider7})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider8})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider9})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider10})` }} />
     </Slick>
   );
 }
