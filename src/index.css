@@ -180,7 +180,6 @@ header h2 {
   width: 15%;
   height: 15vw;
   margin: 10px;
-  background: linear-gradient(223deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url('./assets/images/placeholder.jpg');
   background-size: cover;
   background-position: center;
   color: white;
