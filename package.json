@@ -22,5 +22,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build && buildbranch gh-pages build beef-bot.nl"
-  }
+  },
+  "homepage": "http://sjaakluthart.github.io/de-bruinvis",
 }
