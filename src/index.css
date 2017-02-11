@@ -75,11 +75,87 @@ header h2 {
 
 .slick-dots li button:before,
 .slick-dots li.slick-active button:before {
-  color: rgb(124, 174, 195);
+  color: white;
   font-size: 10px;
 }
 
-.slick-next:before, .slick-prev:before {
-  color: rgb(124, 174, 195);
+.slick-dots li button:before {
+  opacity: .5;
+}
+
+.slick-dots li.slick-active button:before {
   opacity: 1;
+}
+
+.slick-next:before, .slick-prev:before {
+  opacity: .75;
+}
+
+.about header {
+  padding: 24px 40px;
+  background: rgb(51, 51, 51);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about header h1 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.about header h2 {
+  text-transform: none;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.about > section {
+  padding: 32px 40px;
+}
+
+.about section h1 {
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.about section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about section h3,
+.about section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.about section section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about section section div {
+  width: 100%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  line-height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .about section section {
+    flex-direction: row;
+  }
+
+  .about section section div {
+    width: 50%;
+    padding: 15px;
+  }
 }
