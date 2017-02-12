@@ -3,6 +3,7 @@ import Header from './header';
 import Slider from './slider';
 import About from './about';
 import Activities from './activities';
+import Pricing from './pricing';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Slider />
       <About />
       <Activities />
+      <Pricing />
     </main>
   );
 }

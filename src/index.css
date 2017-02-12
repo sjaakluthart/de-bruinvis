@@ -117,17 +117,24 @@ header h2 {
 }
 
 .about section h1,
-.activities h1 {
+.activities h1,
+.pricing > section > h1 {
   font-size: 32px;
   font-weight: normal;
   margin-bottom: 16px;
   text-align: center;
 }
 
-.about section h2 {
+.about section h2,
+.pricing h2 {
   font-size: 20px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+.pricing h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .about section h3,
@@ -152,14 +159,26 @@ header h2 {
   line-height: 32px;
 }
 
+.pricing section > p {
+  width: 100%;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
 @media screen and (min-width: 768px) {
   .about section section div {
     width: 50%;
     padding: 15px;
   }
+
+  .pricing section > p {
+    width: 50%;
+  }
 }
 
-.activities {
+.activities,
+.pricing > section {
   padding: 40px 20px;
 }
 
@@ -198,4 +217,32 @@ header h2 {
 
 .activities a:hover {
   opacity: 1;
+}
+
+.pricing {
+  background: rgb(242, 242, 242);
+}
+
+.pricing section section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.pricing div {
+  margin: 10px;
+  width: 375px;
+  text-align: center;
+}
+
+.pricing div h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.pricing p {
+  font-size: 18px;
 }
