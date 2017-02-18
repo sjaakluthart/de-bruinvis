@@ -187,13 +187,24 @@ header h2 {
 }
 
 .activities section,
-.contact section {
+.contact section,
+footer section {
   margin-top: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+footer {
+  padding: 20px;
+  background: rgb(51, 51, 51);
+}
+
+footer section {
+  margin-top: 0;
+  align-items: flex-start;
 }
 
 .activities a {
@@ -271,4 +282,39 @@ header h2 {
 .contact a {
   text-decoration: none;
   color: #1b191a;
+}
+
+footer section > div {
+  width: 400px;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  margin: 10px;
+}
+
+footer div h1 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+footer div div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+footer div div p {
+  width: 50%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.copyright {
+  padding: 20px;
+  text-align: center;
+}
+
+.copyright h1 {
+  margin-bottom: 10px;
 }

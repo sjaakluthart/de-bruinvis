@@ -5,6 +5,8 @@ import About from './about';
 import Activities from './activities';
 import Pricing from './pricing';
 import Contact from './contact';
+import Footer from './footer';
+import CopyRight from './copyright';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Activities />
       <Pricing />
       <Contact />
+      <Footer />
+      <CopyRight />
     </main>
   );
 }
