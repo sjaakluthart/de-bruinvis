@@ -4,6 +4,7 @@ import Slider from './slider';
 import About from './about';
 import Activities from './activities';
 import Pricing from './pricing';
+import Contact from './contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Activities />
       <Pricing />
+      <Contact />
     </main>
   );
 }

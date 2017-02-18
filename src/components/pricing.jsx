@@ -41,7 +41,7 @@ function Pricing() {
           </p>
         </section>
         <h2>
-          Neem voor meer informatie, definitieve prijzen en beschikbaarheid contact met ons op
+          Neem voor meer informatie, definitieve prijzen en beschikbaarheid contact met ons op.
         </h2>
       </section>
       <section style={style} />
