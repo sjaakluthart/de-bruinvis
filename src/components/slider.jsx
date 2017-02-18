@@ -19,7 +19,8 @@ function Slider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     accessibility: true,
-    arrows: true
+    arrows: true,
+    autoplay: true
   };
 
   const style = {
