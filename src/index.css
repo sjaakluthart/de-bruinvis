@@ -32,14 +32,28 @@ body {
   background: #FEFEFE;
 }
 
-header {
+main > header {
   padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header img {
-  width: 60px;
-  float: left;
+  width: 200px;
   margin-right: 10px;
+}
+
+header section a {
+  margin: 5px;
+}
+
+header section img,
+header section a {
+  display: block;
+  width: 30px;
+  height: 30px;
 }
 
 header h1,
