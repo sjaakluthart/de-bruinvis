@@ -1,4 +1,5 @@
 import React from 'react';
+import I18n from './i18n';
 import duinen from '../assets/images/duinen.jpg';
 
 function About() {
@@ -13,12 +14,8 @@ function About() {
   return (
     <article className="about">
       <header>
-        <h1>
-          Zin in een lekker weekendje weg of een weekje vakantie?
-        </h1>
-        <h2>
-          Proef de sfeer van dit bijzondere en unieke huisje. Voel de vrijheid!
-        </h2>
+        <h1>{<I18n text="aboutHeader1" />}</h1>
+        <h2>{<I18n text="aboutHeader2" />}</h2>
       </header>
       <section>
         <h1>Over de Bruinvis</h1>
