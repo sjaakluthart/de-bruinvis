@@ -13,7 +13,7 @@ import de from './i18n/de.json';
 import LanguageChanger from './components/language-changer';
 
 i18next.init({
-  lng: 'nl',
+  lng: navigator.language || navigator.userLanguage,
   fallbackLng: 'nl',
   resources: {
     de: {
