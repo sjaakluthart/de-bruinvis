@@ -1,1 +1,12 @@
-<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 61 66"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#7aaec4;}</style><clipPath id="clip-path"><rect class="cls-1" x="10.92" y="4.19" width="39.35" height="56.81"/></clipPath></defs><title>nederlandsevlag</title><g class="cls-2"><path class="cls-3" d="M43.74,10.35a19.24,19.24,0,0,0-27.19,0C9.78,17.12,9,29.86,14.77,37.52L30.15,59.73,45.53,37.52c5.74-7.65,5-20.4-1.79-27.16ZM30.33,30.11a6.35,6.35,0,1,1,6.35-6.35,6.35,6.35,0,0,1-6.35,6.35Zm0,0"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="location" fill-rule="nonzero" fill="#7AAEC4">
+            <path d="M45.74,10.35 C38.228545,2.84928264 26.061455,2.84928264 18.55,10.35 C11.78,17.12 11,29.86 16.77,37.52 L32.15,59.73 L47.53,37.52 C53.27,29.87 52.53,17.12 45.74,10.36 L45.74,10.35 Z M32.33,30.11 C28.8229918,30.11 25.98,27.2670082 25.98,23.76 C25.98,20.2529918 28.8229918,17.41 32.33,17.41 C35.8370082,17.41 38.68,20.2529918 38.68,23.76 C38.68,25.4441247 38.0109841,27.0592721 36.8201281,28.2501281 C35.6292721,29.4409841 34.0141247,30.11 32.33,30.11 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

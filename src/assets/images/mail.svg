@@ -1,1 +1,19 @@
-<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 66"><defs><style>.cls-1{fill:#7aaec4;}</style></defs><title>nederlandsevlag</title><path class="cls-1" d="M30.15,36.07l-6.65-5.83-19,16.28a3.8,3.8,0,0,0,2.64,1.05h46a3.8,3.8,0,0,0,2.64-1.05l-19-16.28Zm0,0"/><path class="cls-1" d="M55.78,10.24a3.76,3.76,0,0,0-2.64-1.05h-46a3.83,3.83,0,0,0-2.64,1.05l25.66,22Zm0,0"/><path class="cls-1" d="M3.27,12.57V44.45L21.82,28.68Zm0,0"/><path class="cls-1" d="M38.45,28.68,57,44.45V12.55Zm0,0"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="location" transform="translate(0.000000, -82.000000)" fill-rule="nonzero" fill="#7AAEC4">
+            <g id="mail" transform="translate(5.000000, 95.000000)">
+                <g id="Laag_1">
+                    <path d="M27.15,27.07 L20.5,21.24 L1.5,37.52 C2.21113399,38.1981837 3.15733816,38.5745149 4.14,38.57 L50.14,38.57 C51.1226618,38.5745149 52.068866,38.1981837 52.78,37.52 L33.78,21.24 L27.15,27.07 Z" id="Shape"></path>
+                    <path d="M52.78,1.24 C52.0711899,0.558200162 51.1234563,0.181260674 50.14,0.19 L4.14,0.19 C3.15792741,0.188586393 2.2128357,0.564475144 1.5,1.24 L27.16,23.24 L52.78,1.24 Z" id="Shape"></path>
+                    <polygon id="Shape" points="0.27 3.57 0.27 35.45 18.82 19.68"></polygon>
+                    <polygon id="Shape" points="35.45 19.68 54 35.45 54 3.55"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
