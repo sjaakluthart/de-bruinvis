@@ -41,11 +41,32 @@ main > header {
 }
 
 header img {
-  width: 200px;
+  width: 45%;
+  max-width: 200px;
   margin-right: 10px;
 }
 
-header section a {
+header section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header section p {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #7AAEC4;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header section a,
+header section p {
   margin: 5px;
 }
 
@@ -289,8 +310,12 @@ footer section {
 }
 
 .contact img {
-  height: 50px;
+  height: 40px;
   margin-bottom: 10px;
+}
+
+.contact p {
+  line-height: 24px;
 }
 
 .contact a {
