@@ -1,5 +1,6 @@
 import React from 'react';
 import I18n from './i18n';
+import story from '../assets/verhaal-de-bruinvis.pdf';
 
 function Footer() {
   return (
@@ -18,6 +19,7 @@ function Footer() {
             <p><I18n text="calm" /></p>
             <p><I18n text="cozy" /></p>
             <p><I18n text="space" /></p>
+            <a className="story" href={story} target="_blank" rel="noopener noreferrer"><I18n text="story-bruinvis" /></a>
           </div>
         </div>
         <div>

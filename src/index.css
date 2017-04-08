@@ -331,6 +331,21 @@ footer section > div {
   margin: 10px;
 }
 
+footer a {
+  color: #FEFEFE;
+  text-decoration: none;
+  font-size: 20px;
+  align-self: flex-end;
+  margin: 20px 0;
+  border-bottom: 1px solid transparent;
+  transition: all .3s ease-in-out;
+  padding-bottom: 5px;
+}
+
+footer a:hover {
+  border-bottom: 1px solid;
+}
+
 footer div h1 {
   font-size: 32px;
   margin-bottom: 24px;
