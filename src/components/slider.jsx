@@ -9,7 +9,12 @@ import slider6 from '../assets/images/slider6.jpg';
 import slider7 from '../assets/images/slider7.jpg';
 import slider8 from '../assets/images/slider8.jpg';
 import slider9 from '../assets/images/slider9.jpg';
-import slider10 from '../assets/images/slider10.jpg';
+import slider11 from '../assets/images/slider11.jpg';
+import slider12 from '../assets/images/slider12.jpg';
+import slider13 from '../assets/images/slider13.jpg';
+import slider14 from '../assets/images/slider14.jpg';
+import slider15 from '../assets/images/slider15.jpg';
+import slider16 from '../assets/images/slider16.jpg';
 
 function Slider() {
   const settings = {
@@ -42,7 +47,12 @@ function Slider() {
       <div style={{ ...style, backgroundImage: `url(${slider7})` }} />
       <div style={{ ...style, backgroundImage: `url(${slider8})` }} />
       <div style={{ ...style, backgroundImage: `url(${slider9})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider10})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider11})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider12})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider13})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider14})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider15})` }} />
+      <div style={{ ...style, backgroundImage: `url(${slider16})` }} />
     </Slick>
   );
 }
