@@ -1,9 +1,10 @@
-/* eslint react/jsx-filename-extension: [0] */
-/* global navigator */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import i18next from 'i18next';
 import { Provider } from 'react-redux';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 import store from './store';
 import App from './components/app';
 import './meyer-reset.css';

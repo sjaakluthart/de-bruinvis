@@ -38,21 +38,51 @@ function Slider() {
 
   return (
     <Slick {...settings}>
-      <div style={style} />
-      <div style={{ ...style, backgroundImage: `url(${slider2})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider3})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider4})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider5})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider6})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider7})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider8})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider9})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider11})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider12})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider13})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider14})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider15})` }} />
-      <div style={{ ...style, backgroundImage: `url(${slider16})` }} />
+      <div className="slide">
+        <div style={style} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider2})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider3})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider4})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider5})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider6})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider7})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider8})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider9})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider11})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider12})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider13})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider14})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider15})` }} />
+      </div>
+      <div className="slide">
+        <div style={{ ...style, backgroundImage: `url(${slider16})` }} />
+      </div>
     </Slick>
   );
 }

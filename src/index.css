@@ -373,3 +373,7 @@ footer div div p {
 .copyright h1 {
   margin-bottom: 10px;
 }
+
+.slide {
+  outline: 0;
+}
