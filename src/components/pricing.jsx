@@ -3,14 +3,6 @@ import familie from '../assets/images/familiebruin.jpg';
 import I18n from './i18n';
 
 function Pricing() {
-  const style = {
-    backgroundImage: `url(${familie})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    width: '100%',
-    height: '300px',
-    padding: 0
-  };
   return (
     <article className="pricing">
       <section>
@@ -35,7 +27,7 @@ function Pricing() {
         </section>
         <h2><I18n text="pricingHeader" /></h2>
       </section>
-      <section style={style} />
+      <img src={familie} className="hero" alt="Familie Bruin" />
     </article>
   );
 }
