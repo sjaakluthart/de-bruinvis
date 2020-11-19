@@ -44,8 +44,6 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "buildbranch": "^2.0.1"
-  },
+  "devDependencies": {},
   "homepage": "http://huisjedebruinvis.nl"
 }
