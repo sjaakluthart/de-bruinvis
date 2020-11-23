@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { hydrate, render } from 'react-dom';
 import i18next from 'i18next';
 import { Provider } from 'react-redux';
 import 'slick-carousel/slick/slick.css';
@@ -26,11 +26,18 @@ i18next.init({
   }
 });
 
-ReactDOM.render(
+const app = (
   <Provider store={store}>
     <LanguageChanger>
       <App />
     </LanguageChanger>
-  </Provider>,
-  document.getElementById('root')
+  </Provider>
 );
+
+const rootElement = document.getElementById('root');
+
+if (rootElement.hasChildNodes()) {
+  hydrate(app, rootElement);
+} else {
+  render(app, rootElement);
+}
