@@ -20,14 +20,20 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "postbuild": "react-snap",
     "serve": "vite preview"
   },
   "reactSnap": {
-    "source": "dist"
+    "source": "dist",
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
   },
   "devDependencies": {
     "@types/babel__core": "^7.1.19",
     "@vitejs/plugin-react": "^1.1.4",
+    "react-snap": "^1.23.0",
     "typescript": "^4.5.5",
     "vite": "^2.7.13"
   }
